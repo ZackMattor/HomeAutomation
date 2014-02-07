@@ -23,3 +23,5 @@ Client
 Nodes
 ---
  Nodes are basically just computers that the API talks to in order to interact with the house. This is the start of the physical interaction with the system. (the nodes directly control the relays in the switches)
+ 
+ The nodes will talk to the switches over a wired network of sorts. Either direclty tied to each switch (2 wires per relay), or over some sort of serial protocol (i2c)
